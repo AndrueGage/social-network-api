@@ -2,7 +2,7 @@
 
  const ReactionSchema = new Schema({
     reactionId: {
-        type: Schema.Types.ObjectId(),
+        type: Schema.Types.ObjectId,
     },
     reactionBody: {
         type: String,
